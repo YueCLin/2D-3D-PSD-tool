@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psd_tool"
+version = "0.1.0"
+description = "A tool for transforming 2D pore radius distribution to 3D"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "pandas"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/2D-3D-PSD-tool"
